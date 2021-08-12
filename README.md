@@ -2,7 +2,7 @@ Managing infrastructure on Google Cloud Platform(GCP) with Terraform
 
 **GETTING STARTED**
 
-GCP uses projects as it's primary organizing principle. Resources are associated with projects.Projects are also a way to organize and delegate permissions in a hierarchical format and associate a billing account to the resources in the project. For more can be found
+GCP uses projects as it's primary organizing principle. Resources are associated with projects.Projects are also a way to organize and delegate permissions in a hierarchical format and associate a billing account to the resources in the project. For more can be found 
 
 **PREREQUISITE**
 
@@ -12,4 +12,3 @@ GCP uses projects as it's primary organizing principle. Resources are associated
 
 After you install the the gcloud CLI, you should run: gcloud --version If you see the component output,that means the installation is successful.
 
-https://cloud.google.com/docs/enterprise/best-practices-for-enterprise-organizations

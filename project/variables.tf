@@ -3,16 +3,6 @@ variable "project_name" {
   description = "GCP Project name."
   type        = string
 }
-
-variable "org_id" {
-  description = "Organization ID to associate with the project being created"
-  type        = string
-}
-
-variable "billing_account" {
-  description = "Billing account to associate with the project being created."
-  type        = string
-}
 variable "labels" {
   description = "A set of key/value label pairs to assign to the project."
   type        = map

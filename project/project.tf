@@ -9,8 +9,6 @@ resource "random_string" "random" {
 resource "google_project" "algorand" {
   name            = var.project_name
   project_id      = "${var.project_name}-${random_string.random.result}"
-  billing_account = var.billing_account
-  org_id          = var.org_id
   labels          = var.labels
 
 }

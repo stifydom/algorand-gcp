@@ -10,4 +10,5 @@ GCP uses projects as it's primary organizing principle. Resources are associated
 
 [Gloud Cloud SDK](https://cloud.google.com/sdk/docs/install)- install the latest version
 
-After you install the the gcloud CLI, you should run: gcloud --version If you see the component output,that means the installation is successful.
+After you install the the gcloud CLI,
+run: gcloud --version If you see the component output,that means the installation is successful.
